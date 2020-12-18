@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+}
+
+* .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.darkGreen {
+  background: #B0CCC0;
+}
+
+.blue {
+  background-color: #58828A;
+}
+
+.rosa {
+  background-color: #C4958A;
+}
+
+.beige {
+  background-color: #CDC2C2;
+}
+
+.orange {
+  background: #F1B479;
+}
+
+.white {
+  background-color: #F5EDE4;
+}
+
+.background {
+  height: 100vh;
+}
+
+.con-margin {
+  padding: 40px 0;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.displayNone {
+  display: none !important;
+}
+
+h1, h2 {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 2em;
+}
+
+h3, h4, h5, h6 {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.tooltips {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  color: #3c2c66;
+  border-bottom: 1px dotted #3c2c66;
+  cursor: help;
+}
+
+.tip {
+  visibility: hidden;
+  width: 150px;
+  background-color: #3c2c66;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tip.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -4px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #3c2c66;
+}
+
+.dropdown .trigger {
+  border-bottom: 1px solid #dddddd;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown .trigger::after {
+  content: ">";
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  transform: rotate(90deg) scale(0.5, 1);
+  font-weight: 700;
+  transition: transform 0.3;
+}
+
+.dropdown .trigger.active::after {
+  transform: rotate(-90deg) scale(0.5, 1);
+}
+
+.dropdown .content {
+  display: none;
+}
+
+.dropdown .content.active {
+  display: block;
+}
+
+.tabs > ul {
+  padding: 0;
+}
+
+.tabs .trigger {
+  list-style-type: none;
+  padding: 10px;
+  background-color: wheat;
+  margin: 4px;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs .trigger.active {
+  background-color: #3c2c66;
+  color: white;
+}
+
+.tabs .content {
+  background-color: #fbfbfb;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: none;
+}
+
+.tabs .content.active {
+  display: block;
+}
+/*# sourceMappingURL=master-styles.css.map */

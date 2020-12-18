@@ -1,0 +1,71 @@
+//Variables
+$darkGreen: #B0CCC0;
+$blue: #58828A;
+$rosa: #C4958A;
+$beige: #CDC2C2;
+$orange: #F1B479;
+$white: #F5EDE4;
+$yellow: #F6E283;
+
+* {
+    margin: 0;
+
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+//Background colour classes
+.darkGreen{
+    background: $darkGreen;
+}
+
+.blue{
+    background-color: $blue;
+}
+
+.rosa{
+    background-color: $rosa;
+}
+
+.beige{
+    background-color: $beige;
+}
+
+.orange{
+    background: $orange;
+}
+
+.white{
+    background-color: $white;
+}
+
+.background{
+    height:100vh
+}
+
+.con-margin{
+    padding: 40px 0;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.displayNone{
+    display: none !important;
+}
+
+h1, h2{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 2em;
+}
+
+h3, h4, h5, h6 {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;;
+}

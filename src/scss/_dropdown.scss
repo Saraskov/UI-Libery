@@ -1,0 +1,29 @@
+.dropdown{
+    .trigger {
+        border-bottom: 1px solid #dddddd;
+        padding: 10px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .trigger::after{
+        content:">";
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        transform: rotate(90deg) scale(0.5, 1);
+        font-weight: 700;
+        transition: transform 0.3;
+    }
+
+    .trigger.active::after{
+        transform: rotate(-90deg) scale(0.5, 1)
+    }
+
+    .content{
+        display: none;
+    }
+    .content.active{
+        display: block;
+    }
+}

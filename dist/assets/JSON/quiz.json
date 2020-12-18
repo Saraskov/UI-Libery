@@ -1,0 +1,33 @@
+[
+    {
+        "QustId" : 1,
+        "Question": "How many legs does a cat have",
+        "Options" : [3,4],
+        "Answer": 1
+    },
+    {
+        "QustId" : 2,
+        "Question": "How many blue stripes are there on the U.S. flag?",
+        "Options" : [7, 13],
+        "Answer": 1
+    },
+    {
+        "QustId" : 3,
+        "Question": "What is the color of Donald Duck’s bowtie?",
+        "Options" : ["Red", "Blue"],
+        "Answer": 0
+    },
+    {
+        "QustId" : 4,
+        "Question": "Which animal does not appear in the Chinese zodiac?",
+        "Options" : ["Dog", "Hummingbird"],
+        "Answer": 1
+    }
+    ,
+    {
+        "QustId" : 4,
+        "Question": "Which planet is the hottest?",
+        "Options" : ["Venus", "Mercury"],
+        "Answer": 0
+    }
+]
